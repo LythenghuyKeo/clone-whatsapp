@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_clone_whatsapp/CallPage.dart';
-import 'package:flutter_clone_whatsapp/ChatPage.dart';
-import 'package:flutter_clone_whatsapp/StatusPage.dart';
+import 'package:flutter_clone_whatsapp/Page/CallPage.dart';
+import 'package:flutter_clone_whatsapp/Page/ChatPage.dart';
+import 'package:flutter_clone_whatsapp/Page/StatusPage.dart';
 
-import 'PeoplePage.dart';
+import 'Page/PeoplePage.dart';
 
 void main() {
   runApp(const MyApp());

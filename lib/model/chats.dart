@@ -1,4 +1,4 @@
-import 'dart:ui';
+import 'dart:io';
 
 class Chat{
   final String name;
@@ -7,6 +7,6 @@ class Chat{
   Chat(this.name,this.msg,this.pic);
 }
 List<Chat> chats = [
-  Chat('kei','hi','https://docs.flutter.dev/assets/images/dash/dash-fainting.gif'),
-  Chat('jij', 'hi', '')
+  Chat('kei','hi','http://docs.flutter.dev/assets/images/dash/dash-fainting.gif'),
+  Chat('jij', 'hi','http://docs.flutter.dev/assets/images/dash/dash-fainting.gif' )
 ];
