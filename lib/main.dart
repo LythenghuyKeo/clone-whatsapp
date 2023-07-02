@@ -1,8 +1,10 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_clone_whatsapp/Page/CallPage.dart';
 import 'package:flutter_clone_whatsapp/Page/ChatPage.dart';
 import 'package:flutter_clone_whatsapp/Page/StatusPage.dart';
-
+import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_clone_whatsapp/Page/displayChat.dart';
 import 'Page/PeoplePage.dart';
 
 void main() {
@@ -70,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
         controller: tabController,
         children: [
                 PeoplePage(),
-                ChatPage(),
+                DisplayChat(),
                 StatusPage(),
                 CallPage()
         ],
